@@ -4,7 +4,7 @@ const request = require('request');
 
 const app = express();
 
-app.set('port',(process.env.port || 8000));
+app.set('port',(process.env.Port || 8000));
 
 app.use(bodyParser.urlencoded({extended : false}))
 
